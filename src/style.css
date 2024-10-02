@@ -1,0 +1,178 @@
+html{
+    font-size: 16px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    /* background-color: green;  */
+    /* color: rgba(0,0,0,0.5); */
+    color: #444444;
+}
+
+#navbar{
+    padding: 8px;
+}
+
+#banner{
+    object-fit: cover;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.75rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+h5{
+    font-size: 1.25rem;
+}
+
+h6{
+    font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Inter';
+    color: #222222;
+}
+
+#about{
+    display: flex;
+    max-width: 800px;
+    padding: 8px;
+    margin: 0 auto;
+}
+
+#description{
+    width: 50%;
+    padding-right: 8px;
+}
+
+#team{
+    width: 50%;
+}
+
+#team-image{
+    width: 100%;
+    border-radius: 3px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(5, 155, 255);
+}
+
+a:hover, a:focus{
+    color: rgb(51, 122, 146);
+}
+
+/* a:active{ */
+    /* color: red; */
+/* } */
+
+h2{
+    text-align: center;
+}
+
+#jobs{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+#jobs-table{
+  border: 1px solid grey;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.jobs-header-row th{
+    border: 1px solid grey;
+    padding: 8px;
+    background-color: rgb(193, 226, 254); 
+    color: #222222;
+}
+
+.jobs-data-row td{
+    border: 1px solid grey;
+    padding: 8px;
+}
+
+#jobs-table tr:nth-child(odd){
+    background-color: rgb(232, 244, 255);
+}
+
+#application-form{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+.form-group{
+    margin: 16px 0;
+}
+
+#application-form label{
+    font-weight: 500;
+}
+
+#application-form input, select, textarea{
+    padding: 8px;
+    font-size: 1.25rem;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.form-group textarea{
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-group input[type=checkbox]{
+   width: 16px;
+   height: 16px;
+}
+
+.form-group input[type=submit]{
+    background-color: rgb(15, 128, 165);
+    color: rgb(238, 238, 238);
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+#footer{
+    background-color: ghostwhite;
+    text-align: center;
+    padding: 8px;
+    margin-top: 32px;
+}
+
+#footer-links{
+    list-style-type: none;
+}
+
+#footer-links li{
+    display: inline;
+    margin: 0 16px;
+}
+
+.copyright{
+    color: grey;
+    font-size: 0.875rem;
+}
