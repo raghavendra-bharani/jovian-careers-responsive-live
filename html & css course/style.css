@@ -1,0 +1,59 @@
+p {
+    font-family: Roboto;
+   margin-top  : 0;
+  margin-bottom: 0;
+}
+
+.vedio-title {
+    font-size   : 24px;
+    font-weight : bold;
+         width  : 360px;
+    line-height : 27px;
+  margin-bottom : 8px;
+}
+
+.vedio-stats {
+    font-size   : 18px;
+    font-weight : bold;
+         width  : 350px;
+         color  : grey;
+    margin-top  : 0;
+   margin-bottom: 24px;
+}
+
+.vedio-author {
+    font-size   : 18px;
+    font-weight : bold;
+         width  : 360px;
+         color  : grey;
+    margin-top  : 0;
+  margin-bottom : 24px;
+}
+
+.vedio-description {
+    font-size   : 18px;
+    font-weight : bold;
+        color   : grey;
+         width  : 350px;
+   line-height  : 26px; 
+  margin-top    : 0px;
+  margin-bottom : 100px;
+}
+
+.vedio-footer {
+   font-size       : 16px;
+  background-color : #af1b05;
+       color       : white;
+     text-align    : center;
+      padding-top   : 18px;
+    padding-bottom  : 18px;
+}
+
+.shop-link {
+      cursor : pointer;
+  margin-left: 5px;
+}
+
+.shop-link:hover {
+     text-decoration: underline;
+}

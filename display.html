@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        #item1{
+            border: 1px solid black;
+            display: inline-block;
+            /* inline is like span we cannot set width and height, 
+            but wiith inline-block display property we can set width and
+            height as per our need */
+            height: 20px;
+            width: 300px;
+        }
+
+        #item2{
+            border: 1px solid red;
+            display: inline;
+        }
+
+        #item3{
+            border: 1px solid brown;
+            display: none;
+        }
+        
+        #item4{
+            border: 1px solid blue;
+            display: block;
+        }
+
+        #item5{
+            border: 1px solid green;
+            display: inline;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <div id="item1">Item 1 Item 1Item 1Item 1Item 1Item 1Item 1</div>
+        <div id="item2">Item 2</div>
+        <div id="item3">Item 3</div>
+        <div id="item4">Item 4</div>
+        <div id="item5">Item 5</div>
+    </div>
+</body>
+</html>
